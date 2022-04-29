@@ -95,7 +95,15 @@ body {
 
 
 @media only screen and (max-width: 764px) {
-    
+    #contain-fluid{
+        background-color: rgb(255, 255, 255);
+    }
+    #contain{
+        width: 100%;
+        box-shadow: none;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 50px;
+    }
     #photo1-img{
         
         height: 80vh;
