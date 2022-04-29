@@ -1,0 +1,108 @@
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+    color: black;
+}
+
+#contain{
+    width: 68%;
+    box-shadow: 2px 2px 40px rgb(189, 187, 187);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 80px;
+}
+#view-work{
+    border:1px solid rgb(207, 206, 206);
+    border-radius: 30px;
+    padding: 15px 50px 15px 50px;
+}
+#view-work:hover{
+    border:1px solid rgb(207, 206, 206);
+    /* border-radius: 30px;
+    padding: 15px 50px 15px 50px; */
+    background-color: rgb(248, 245, 245);
+}
+#photo1-img{
+    background-image: url(https://source.unsplash.com/De8wMYoSSBc);
+    height: 100vh;
+    margin: 0;
+    display: block ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-1{
+    background-color: #333;
+}
+#ourwork-section{
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+ #photo2-img{
+ background-image: url(https://source.unsplash.com/1600x900/?nature,trees);
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    display: block ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+#photo3-img{
+    background-image: url(https://source.unsplash.com/1600x900/?nature,flower);
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    display: block ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#photo4-img{
+    background-image: url(https://source.unsplash.com/1600x900/?nature,animal);
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    display: block ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#photo5-img{
+    background-image: url(https://source.unsplash.com/1600x900/?nature,water);
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    display: block ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#photo6-img{
+    background-image: url(https://source.unsplash.com/1600x900/?nature,mountains);
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    display: block ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media only screen and (max-width: 764px) {
+    
+    #photo1-img{
+        
+        height: 80vh;
+    }
+    #view-work{
+        
+        padding: 7px 25px 7px 25px;
+    }
+}
